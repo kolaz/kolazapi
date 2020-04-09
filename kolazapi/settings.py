@@ -26,7 +26,7 @@ SECRET_KEY = 'r^q2y!0skd=t!z$ig5^bx6xnm4pvy)02b80f8im1kkra1br2)4'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['kolazapi.herokuapp.com']
 
 
 # Application definition
