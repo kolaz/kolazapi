@@ -92,27 +92,27 @@ WSGI_APPLICATION = 'kolazapi.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.0/ref/settings/#databases
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-    }
-}
-
 # DATABASES = {
-#         'default': {
-#             'ENGINE': 'django.db.backends.postgresql_psycopg2',
-#             'NAME': 'de1kmmsedpo7an',
-#             'USER': 'tvdrivjlbtnlvk',
-#             'PASSWORD': 'f7fdfaaf6dd3a2052683a2945835362d84e1aa02a281908dbb4a65d283f9ac23',
-#             'HOST': 'ec2-52-71-85-210.compute-1.amazonaws.com',
-#             'PORT': '5432',
-#     },
-#         'optional': {
-#             'ENGINE': 'django.db.backends.sqlite3',
-#             'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-#         }
+#     'default': {
+#         'ENGINE': 'django.db.backends.sqlite3',
+#         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
 #     }
+# }
+
+DATABASES = {
+        'default': {
+            'ENGINE': 'django.db.backends.postgresql_psycopg2',
+            'NAME': 'd4t7a88hm1ctn0',
+            'USER': 'pyuvwuhqqhsqga',
+            'PASSWORD': '7cc38950a009f313174795dc301e081b0376cd5ba787d0982571a4fa7270af8b',
+            'HOST': 'ec2-54-210-128-153.compute-1.amazonaws.com',
+            'PORT': '5432',
+    },
+        'optional': {
+            'ENGINE': 'django.db.backends.sqlite3',
+            'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        }
+    }
 
 
 # Password validation
