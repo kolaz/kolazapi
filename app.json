@@ -4,7 +4,7 @@
   "image": "heroku/python",
   "repository": "https://github.com/kolaz/kolazapi",
   "keywords": ["python", "django" ],
-  "addons": [ "mongolab:sandbox" ],
+  "addons": [ "cloudamqp:lemur" ],
   "env": {
     "SECRET_KEY": {
       "description": "The secret key for the Django application.",
